@@ -10,7 +10,11 @@
     <packaging>pom</packaging>
 
     <modules>
+        <!-- for centralized_config -->
         <module>config_client</module>
         <module>config_server</module>
+        <!-- for route & filter -->
+        <module>book</module>
+        <module>gateway</module>
     </modules>
 </project>
