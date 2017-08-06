@@ -16,8 +16,11 @@
         <!-- for route & filter -->
         <module>book</module>
         <module>gateway</module>
-
+        <!-- for registration & discover -->
         <module>eureka_client</module>
         <module>eureka_server</module>
+        <!-- for load balance -->
+        <module>ribbon_client</module>
+        <module>ribbon_server</module>
     </modules>
 </project>
