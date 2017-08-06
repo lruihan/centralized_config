@@ -22,5 +22,8 @@
         <!-- for load balance -->
         <module>ribbon_client</module>
         <module>ribbon_server</module>
+        <!-- for circuit breaker -->
+        <module>hystrix_client</module>
+        <module>hystrix_server</module>
     </modules>
 </project>
